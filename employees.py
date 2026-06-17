@@ -3,3 +3,4 @@ import pandas as pd
 import matplotlib.pyplot as plt
 df = pd.read_csv('employees_1000.csv')
 print(df.head())
+print(df.info())
